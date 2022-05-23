@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+z-index: 100;
+
+    
+}
+body{
+    background-image: url("65.png");
+    background-size: 600px 300px;
+    overflow: hidden;
+}
+#menu{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    width: auto;
+    display: flex;
+    
+       
+
+}
+#title{
+
+    transition: padding-top 0.5s, margin-left 5000s, letter-spacing 0.5s, margin-top 0.5s;
+    font-family:'Montserrat Alternates';
+    color: rgb(201, 228, 255);
+    padding-top: 10px;
+padding-left: 15px;
+    float: left;
+    width: 300px;
+    
+}
+#sou{
+    font-family: 'dancing script';
+    color: white;
+    margin-left: -15px;
+    display: inline;
+}
+#title2{
+    word-break:normal;
+    font-family: 'poiret one';
+    color: white;
+    font-size: 45px;
+    margin-left: 280px;
+    text-shadow: white 0px 0px 10px;
+    height: 100%;
+    width: 300px;
+    padding-top: 8px;
+    transition: padding-top 0.5s, margin-left 0.5s, letter-spacing 0.5s, margin-top 0.5s;
+   
+}
+#about{
+    transition: padding-top 0.5s, margin-left 0.5s, letter-spacing 0.5s, margin-top 0.5s;
+    font-family: 'poppins';
+    font-weight: 400;
+    color: rgb(84, 255, 147);
+    text-decoration:underline;
+    padding-top: 15px;
+    margin-left: 190px;
+    
+}
+#version{
+    
+    transition: padding-top 0.5s, margin-left 0.5s, letter-spacing 0.5s, margin-top 0.5s;
+    font-family: 'fredoka';
+    color: rgb(255,0,174);
+    font-size: 25px;
+    margin-left: 40px;
+    padding-top: 18px;
+}
+#title:hover{
+    
+  cursor: pointer;
+  
+  
+}
+#title2:hover{
+    
+    cursor: pointer;
+}
+#about:hover{
+   
+    cursor: pointer;
+}
+
+#rotate{
+    margin-top: 10px;
+
+    margin-left: 10px;
+    
+    height: 50px;
+    transition: transform(rotate) 0.5s 1;
+
+}
+#rotate:hover{
+    cursor: pointer;
+}
+
+#mic2{
+    margin-left : -100px;
+    position : absolute;
+    height : 200px;
+    width : 200px;
+    border-radius: 1000px;
+    margin-top : 200px ;
+    animation : abc infinite 0.8s;
+    border-radius: 1000px;
+        margin-top:200px ;
+        background-color:#FF4f58ff ;   
+    
+}
+#mic{
+    height: 200px;
+    width:200px;
+    border-radius: 1000px;
+    margin-top:200px ;
+    position: absolute;
+    margin-left: -100px;
+  
+}
+@keyframes abc{
+    from{
+        opacity: 1;
+        transform: scale(1,1);
+         
+    }
+    to{
+        transform: scale(1.5,1.5);
+       opacity: 0;
+    }
+}
+
+
+
+@keyframes abd{
+    from{
+        transform: scale(1,1);
+        border-radius: 100%;
+        margin-top:200px ;
+        background-color:#FF4f58ff ; 
+        
+    }
+    to{
+        transform: scale(10,10);
+        
+        
+    }
+}

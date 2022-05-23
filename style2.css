@@ -1,0 +1,98 @@
+body{
+    background-image: url("bckground.png");
+    background-size: 100% 100%;
+    overflow: visible;
+    height: 350%;
+}
+h1{
+    letter-spacing: 20px;
+    font-size: 100px;
+    font-family:'poppins',serif;
+    font-weight: 400;
+    margin-top: 90px;
+    
+}
+#sound{
+    letter-spacing: 0;
+    font-family: "dancing script",cursive;
+}
+#quote{
+    color:white;
+    font-family: "lobster",cursive;
+    font-size: 50px;
+    margin-top: 100px;
+}
+#main{
+    font-size: 25px;
+    font-family: "fredoka",serif;
+    width: 1400px;
+    text-align: justify;
+    color: black;
+    
+}
+#profile{
+    border-radius: 80%;
+    height: 200px;
+    width:200px;
+    border: red 5px dashed;
+    margin-top: -90px;
+}
+#start{
+    height: 300px;
+    width:300px;
+    border:none;
+    background-color: rgb(255, 100, 100);
+    border-radius: 100%;
+    border: red 5px solid;
+
+    font-family:"lobster",cursive;
+    font-size: 80px;
+    position:relative;
+    z-index: 1;
+
+
+}
+#start::before{
+    animation: infinite 0.4s ease aqa;
+    opacity: 0.8;
+    content:"";
+    height: 300px;
+    width:300px;
+    border:none;
+    background-color: rgb(255, 100, 100);
+    border-radius: 100%;
+    border: red 5px solid;
+position: absolute;
+    font-family:"lobster",cursive;
+    z-index: -1;
+    margin-left: -70px;
+    margin-top: -100px;
+   
+   
+}
+
+@keyframes aqa{
+    from{
+        opacity: 0.8;
+       transform: scale(1,1);
+    }
+    to{
+        opacity: 0;
+        transform: scale(1.5,1.5);
+    }
+}
+
+#quote1{
+    color:white;
+    font-family: "lobster",cursive;
+    font-size: 50px;
+    margin-top:-1000px;
+    position: relative;
+    z-index: -1000000;
+}
+#pro{
+    margin-top: 0px;
+    position: relative;
+    z-index: -30000;
+    height: 1px;
+}

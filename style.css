@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+#background{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+   
+    
+}
+#title{
+    font-weight: 300;
+    font-size: 100px;
+    color: rgb(186, 231, 255);
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    
+    z-index: -20;
+    margin-right: -50px;
+    
+    
+
+
+    
+}
+body{
+    background-size: cover;
+    background-image: url("imgonline-com-ua-Negative-g8hqH5JU9YT.jpg");
+    padding: 0px 0;
+}
+
+#title2{
+    
+    margin-top: 250px;
+    font-size: 150px;
+    color:white;
+    font-family: 'dancing script', cursive;
+    
+    
+    
+    
+}
+#sound{
+    display:none;
+}
+#load{
+    display: none;
+    height: 200px;
+    width:200px;
+    margin-top:220px
+}
